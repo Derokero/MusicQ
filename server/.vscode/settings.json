@@ -1,0 +1,4 @@
+{
+	"dotnet.server.indexExcludePatterns": ["**/client/**", "**/node_modules/**"],
+	"dotnet.server.projectDiscoveryExcludePatterns": ["**/client/**"]
+}

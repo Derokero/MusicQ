@@ -10,10 +10,18 @@
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [5000],
+	// "forwardPorts": [],
 	"customizations": {
 		"vscode": {
-			"extensions": ["ms-dotnettools.vscode-dotnet-runtime", "ms-dotnettools.csharp", "ms-dotnettools.csdevkit", "esbenp.prettier-vscode", "Vue.volar"]
+			"extensions": [
+				"ms-dotnettools.vscode-dotnet-runtime",
+				"ms-dotnettools.csharp",
+				"ms-dotnettools.csdevkit",
+				"esbenp.prettier-vscode",
+				"Vue.volar",
+				"formulahendry.auto-rename-tag",
+				"formulahendry.auto-close-tag"
+			]
 		}
 	}
 	// "portsAttributes": {
